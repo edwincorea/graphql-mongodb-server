@@ -5,12 +5,13 @@ import bodyParser from 'body-parser'
 import cors from 'cors'
 import path from 'path'
 
+import schema from './graphql/'
+
 const app = express()
 const PORT = process.env.PORT || '4000'
 
 const db =
 	'mongodb://ecorea:P4$$w0rd@ds155073.mlab.com:55073/graphql-mongodb-server'
-const schema = ''
 
 // Connect to MongoDB with Mongoose.
 mongoose
