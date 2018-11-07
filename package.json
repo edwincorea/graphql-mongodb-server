@@ -1,16 +1,24 @@
 {
   "name": "graphql-mongodb-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A GraphQL MongoDB server.",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon --exec babel-node index.js",
     "lint": "eslint . --ext .js",
     "format": "npm run prettier -- --write",
     "prettier": "prettier \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "graphql",
+    "mongodb",
+    "express",
+    "react",
+    "boilerplate",
+    "server"
+  ],
+  "author": "Leonardo Maldonado <leonardomso11@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
