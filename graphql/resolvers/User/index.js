@@ -1,3 +1,5 @@
+import Promise from 'promise'
+
 // The User schema.
 import User from '../../../models/User'
 
