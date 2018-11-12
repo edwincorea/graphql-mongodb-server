@@ -4,8 +4,8 @@
 	"description": "A GraphQL MongoDB server.",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index",
-		"server": "nodemon --exec babel-node index.js",
+		"start": "npx babel-node index",
+		"server": "nodemon --exec babel-node index",
 		"client": "npm start --prefix client",
 		"dev": "concurrently \"npm run server\" \"npm run client\"",
 		"lint": "eslint . --ext .js",
